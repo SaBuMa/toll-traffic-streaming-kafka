@@ -1,0 +1,19 @@
+# Credentials
+.env
+
+# Kafka binaries and data (downloaded by scripts/setup_kafka.sh)
+kafka_*/
+*.tgz
+/tmp/kraft-combined-logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
